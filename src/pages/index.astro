@@ -209,7 +209,7 @@
       display: grid;
       grid-template-columns: 1fr;
       gap: 0.5rem;
-      padding: 1.25rem 1rem;
+      padding: 1.25rem 1rem 1.25rem 1.75rem;
       margin: 0 -1rem;
       border-radius: var(--radius);
       transition: background 0.2s, box-shadow 0.2s;
@@ -255,6 +255,7 @@
       font-weight: 600;
       color: var(--accent);
       margin: 0.3rem 0 0.5rem;
+      padding-left: 0.75rem;
     }
     .exp-body p {
       font-size: 0.88rem;
@@ -288,19 +289,20 @@
 
     /* ── Education (same card style) ── */
     .edu-item {
-      padding: 1.25rem 1rem;
+      padding: 1.25rem 1rem 1.25rem 1.75rem;
       margin: 0 -1rem;
       border-radius: var(--radius);
     }
     .edu-item h3 { font-size: 0.95rem; font-weight: 600; color: var(--text-primary); }
-    .edu-item .school { font-size: 0.85rem; color: var(--accent); font-weight: 600; margin: 0.15rem 0; }
-    .edu-item .edu-dates { font-size: 0.78rem; color: var(--text-muted); }
+    .edu-item .school { font-size: 0.85rem; color: var(--accent); font-weight: 600; margin: 0.15rem 0; padding-left: 0.75rem; }
+    .edu-item .edu-dates { font-size: 0.78rem; color: var(--text-muted); padding-left: 0.75rem; }
 
     /* ── Skills ── */
     .skills-grid {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
       gap: 1.5rem;
+      padding-left: 0.75rem;
     }
     .skill-block h4 {
       font-size: 0.72rem;
@@ -314,6 +316,7 @@
       display: flex;
       flex-wrap: wrap;
       gap: 0.4rem;
+      padding-left: 0.75rem;
     }
     .skill-block .tag {
       font-size: 0.78rem;
